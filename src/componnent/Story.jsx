@@ -80,7 +80,6 @@ const Story = () => {
         try {
             const response = await axios.post("http://localhost:8000/stories", item)
             console.log("response", response);
-            //    debugger
             if (response.status === 200) {
                 console.log("yes response.status === 200");
             } else {
