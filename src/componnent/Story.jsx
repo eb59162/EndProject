@@ -34,7 +34,6 @@ const Story = () => {
     const [value, setValue] = React.useState('one');
     const [email, SetEmail] = React.useState("")
     const navigate = useNavigate();
-
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
